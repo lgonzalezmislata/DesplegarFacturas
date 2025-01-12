@@ -1,0 +1,13 @@
+{
+  "name": "desplegarfacturas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy:pruebas": "./scripts/deploy.sh pruebas.env",
+    "deploy:preproduccion": "./scripts/deploy.sh preproduccion.env",
+    "deploy:produccion": "./scripts/deploy.sh produccion.env"
+  },
+  "author": "Lorenzo",
+  "license": "ISC",
+  "description": "Prueba básica de despliegue"
+}
