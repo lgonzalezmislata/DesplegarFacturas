@@ -21,7 +21,7 @@ cat ./dependencies/OpenJDK21U-jdk_x64_linux_hotspot_21.0.5_11.tar.gz_* > ./depen
 
 scp -i ./certificados/id_rsa ./dependencies/OpenJDK21U-jdk_x64_linux_hotspot_21.0.5_11.tar.gz $USER_NAME@$IP_SERVER:.
 rm ./dependencies/OpenJDK21U-jdk_x64_linux_hotspot_21.0.5_11.tar.gz
-scp -i ./certificados/id_rsa ./scripts/server.sh $USER_NAME@192.168.50.109:.
+scp -i ./certificados/id_rsa ./scripts/server.sh $USER_NAME@$IP_SERVER:.
 scp -i ./certificados/id_rsa ../Facturas/target/Facturas-0.0.1-SNAPSHOT.jar $USER_NAME@$IP_SERVER:.
 
 #Ejecutar el script
